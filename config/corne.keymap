@@ -37,10 +37,10 @@
 
         raise {
             bindings = <
-&trans  &trans  &trans  &trans    &trans     &trans    &trans     &trans  &trans    &trans  &trans  &trans
-&trans  &trans  &trans  &trans    &trans     &trans    &trans     &trans  &trans    &trans  &trans  &trans
-&trans  &trans  &trans  &trans    &trans     &trans    &trans     &trans  &trans    &trans  &trans  &trans
-                        &kp LALT  &kp SPACE  &trans    &kp LSHFT  &trans  &kp LGUI
+&trans  &trans     &trans  &trans    &trans         &trans    &trans     &kp LEFT_PARENTHESIS  &trans    &kp RIGHT_PARENTHESIS  &trans  &trans
+&trans  &kp CARET  &trans  &trans    &kp AMPERSAND  &trans    &trans     &kp LBKT              &trans    &kp RBKT               &trans  &trans
+&trans  &trans     &trans  &trans    &trans         &trans    &trans     &kp LEFT_BRACE        &trans    &kp RIGHT_BRACE        &trans  &trans
+                           &kp LALT  &kp SPACE      &trans    &kp LSHFT  &trans                &kp LGUI
             >;
         };
 
